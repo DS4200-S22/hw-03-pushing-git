@@ -24,7 +24,7 @@ The purpose of this assignment is practice more advanced HTML and CSS, and to pr
    - Use flexbox ([definition and examples here](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)) to create a 4-item grid on your webpage. Format the grid such that all items in it are evenly spaced, and wrap.  
    - Inside of each "flex item" in your grid, display one of the chart png's from the img folder and a paragraph. In the paragraph, provide an explanation of the data type(s) shown by the chart and the marks and channels used. In your explanation, please include whether marks are used as items/nodes or links. Add padding to your paragraph.
    - Style your webpage so that each chart and corresponding description are grouped by a thick border. 
-   - Add a new div below your flexbox. Fill this div with evenly spaced, alternatig svg rect's and circles. Style your page so that the rect's and circles change color if the mouse hovers over them ([CSS Effects](https://learn-the-web.algonquindesign.ca/topics/advanced-svg/#svg-effects)). 
+   - Add a new div below your flexbox. Fill this div with evenly spaced, alternating svg rect's and circles. Style your page so that the rect's and circles change color if the mouse hovers over them ([CSS Effects](https://learn-the-web.algonquindesign.ca/topics/advanced-svg/#svg-effects)). 
    - Add a centered header to the bottom of your page. The header should say "Acknowledgements" in font smaller than the font used for your first header. Under this header, add a div. Inside of this div add a centered, bulleted list of the resources you used to complete this assignment.  
 
 ## Resources 
