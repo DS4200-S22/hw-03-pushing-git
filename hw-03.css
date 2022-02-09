@@ -20,13 +20,13 @@ img {
     height: auto;
 }
 
-#div1 {
+/* #div1 {
     position: absolute;
 }
 
 #div2 {
     position: absolute;
-}
+} */
 
 .flex-container {
     align-items: center;
