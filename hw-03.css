@@ -16,6 +16,8 @@ p {
 
 .flex-container {
     display: flex;
+    width: 500px;
+    height: 800px;
     flex-flow: row wrap;
     justify-content: space-between;
 }
