@@ -11,18 +11,24 @@ h1 {
 }
 
 p {
-    padding: 20px;
+    padding: 50px;
 }
 
 .flex-container {
     display: flex;
-    width: 500px;
-    height: 800px;
+    width: 400px;
+    height: 600px;
     flex-flow: row wrap;
     justify-content: space-between;
 }
 
 .container {
     outline-style: solid;
-    outline-color: 50px black;
+    outline-color: 100px black;
 }
+
+h2 {
+    text-align: center;
+    font-size: smaller;
+}
+
