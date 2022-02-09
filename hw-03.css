@@ -30,7 +30,9 @@ p {
     position: relative;  
     align-items: center;
     outline-style: solid;
-    border: 50px black;
+    /*border: 50px black;*/
+    border: 20px solid black;
+    flex-grow: 1;
 }
 
 h2 {
