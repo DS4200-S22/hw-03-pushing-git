@@ -24,9 +24,11 @@ p {
     flex-flow: row wrap;
     justify-content: space-evenly;
     padding: 50px;
+    margin: auto;
 }
 
 .container {
+    align-items: center;
     outline-style: solid;
     border: 100px black;
 }
