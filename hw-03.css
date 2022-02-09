@@ -20,23 +20,15 @@ img {
     height: auto;
 }
 
-/* #div1 {
-    position: absolute;
-}
-
-#div2 {
-    position: absolute;
-} */
-
 .flex-container {
     align-items: center;
-    display: flex;
     width: 100%;
     height: 100vh;
     flex-flow: row wrap;
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 40px 40px;
+    display: grid; /*instead of display: flex*/
 }
 
 .flex-item {
@@ -47,13 +39,8 @@ img {
     margin: 5px 5px 5px 5px;
 }
 
-/* .svgs {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-} */
-
 h2 {
+    bottom: 100%;
     font: Arial;
     text-align: center;
 }
@@ -69,5 +56,5 @@ h2 {
 }
 
 .shape:hover {
-    fill: rgba(224, 224, 197, 0.712);
+    fill: rgba(241, 241, 236, 0.658);
 }
