@@ -1,0 +1,21 @@
+head {
+    font: Arial;
+}
+
+body {
+    font: Arial;
+}
+
+h1 {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.item {
+
+}
