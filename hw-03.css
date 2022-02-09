@@ -25,7 +25,6 @@ p {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 50px;
 }
 
 .container {
@@ -42,4 +41,8 @@ h2 {
 
 .r {
     font-size: smaller;
+}
+
+.hover {
+    fill: rgba(224, 224, 197, 0.712);
 }
