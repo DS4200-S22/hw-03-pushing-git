@@ -31,7 +31,7 @@ p {
     align-items: center;
     outline-style: solid;
     /*border: 50px black;*/
-    border: 20px solid black;
+    border: 10px solid black;
     flex-grow: 1;
 }
 
@@ -44,6 +44,6 @@ h2 {
     font-size: smaller;
 }
 
-.hover {
+.hover:hover {
     fill: rgba(224, 224, 197, 0.712);
 }
