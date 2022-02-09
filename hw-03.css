@@ -20,6 +20,7 @@ p {
     justify-content: space-between;
 }
 
-.item {
-
+.container {
+    outline-style: solid;
+    outline-color: 10px black;
 }
