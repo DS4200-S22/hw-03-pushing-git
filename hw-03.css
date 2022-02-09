@@ -7,6 +7,7 @@ body {
 }
 
 h1 {
+    font: Arial;
     text-align: center;
 }
 
@@ -17,12 +18,6 @@ p {
 img {
     width: 50%;
     height: auto;
-}
-
-.svgs {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 
 .flex-container {
@@ -44,17 +39,25 @@ img {
     margin: 5px 5px 5px 5px;
 }
 
+.svgs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 h2 {
+    font: Arial;
     text-align: center;
 }
 
 .r {
+    font: Arial;
     font-size: smaller;
 }
 
 .shape {
     justify-content: space-evenly;
-    transition-duration: 1s;
+    transition-duration: .5s;
 }
 
 .shape:hover {
