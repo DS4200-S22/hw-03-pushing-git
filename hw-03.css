@@ -23,7 +23,6 @@ p {
     height: 600px;  */
     flex-flow: row wrap;
     flex-wrap: wrap;
-    flex-direction: column;
     justify-content: space-evenly;
 }
 
