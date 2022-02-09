@@ -30,8 +30,7 @@ p {
     position: relative;  
     align-items: center;
     outline-style: solid;
-    /*border: 50px black;*/
-    border: 10px solid black;
+    border: 5px solid black;
     flex-grow: 1;
 }
 
@@ -44,6 +43,10 @@ h2 {
     font-size: smaller;
 }
 
-.hover:hover {
+.shape {
+    transition-duration: 2s;
+}
+
+.shape:hover {
     fill: rgba(224, 224, 197, 0.712);
 }
