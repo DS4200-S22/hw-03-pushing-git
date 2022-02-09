@@ -21,11 +21,11 @@ img {
 }
 
 #div1 {
-    position: relative;
+    position: absolute;
 }
 
 #div2 {
-    position: relative;
+    position: absolute;
 }
 
 .flex-container {
