@@ -18,14 +18,14 @@ p {
 
 .flex-container {
     display: flex;
-    justify-content: space-evenly; /*center*/
+    justify-content: center; /*space-evenly*/
     flex-wrap: wrap; /*row wrap*/
     flex-direction: row;
     /*gap: 50px 50px;*/
 }
 
 .flex-item {
-    border: 5px solid black;
+    border: 10px solid black;
     margin: 5px;
     width: 500px;
     height: auto;
