@@ -31,17 +31,16 @@ p {
   }
 
 .shape {
-    opacity: 1;
     /* display: flex; */
     justify-content: space-evenly;
     transition-duration: .5s;
 }
 
-.shape:hover {
+/* .shape:hover {
     opacity: 0.25;
-}
+} */
 
-.svgs:hover {
+circle:hover, rect:hover {
     opacity: 0.25;
 }
 
