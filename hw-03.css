@@ -1,17 +1,13 @@
-head {
-    font-family: Arial;
-}
-
-body {
+* {
     font-family: Arial;
 }
 
 h1 {
-    font-family: Arial;
     text-align: center;
 }
 
 img {
+    object-fit: contain;
     width: 80%;
     height: 50%;
 }
@@ -22,21 +18,22 @@ p {
 
 .flex-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly; /*center*/
     flex-wrap: wrap; /*row wrap*/
-    gap: 50px 50px;
-  }
-  
-
-.flex-item {
-    align-items: center;
-    outline-style: solid;
-    border: 5px solid black;
-    flex-grow: 1;
-    margin: 5px 5px 5px 5px;
+    flex-direction: row;
+    /*gap: 50px 50px;*/
 }
 
+.flex-item {
+    border: 5px solid black;
+    margin: 5px;
+    width: 500px;
+    height: auto;
+  }
+
 .shape {
+    display: flex;
+    padding: 5px;
     justify-content: space-evenly;
     transition-duration: .5s;
 }
