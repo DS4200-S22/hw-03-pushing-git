@@ -13,7 +13,7 @@ img {
 }
 
 p {
-    padding: 50px;
+    padding: 20px;
 }
 
 .flex-container {
@@ -32,12 +32,16 @@ p {
 
 .shape {
     opacity: 1;
-    display: flex;
+    /* display: flex; */
     justify-content: space-evenly;
     transition-duration: .5s;
 }
 
 .shape:hover {
+    opacity: 0.25;
+}
+
+.svgs:hover {
     opacity: 0.25;
 }
 
