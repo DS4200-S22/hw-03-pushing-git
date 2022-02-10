@@ -13,27 +13,41 @@ img {
 }
 
 p {
-    padding: 20px;
+    padding: 15px;
 }
 
 .flex-container {
     display: flex;
-    justify-content: space-evenly; /*center*/
-    flex-wrap: wrap; /*row wrap*/
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     flex-direction: row;
 }
 
 .flex-item {
+    justify-content: center;
+    padding: 30px;
     border: 10px solid black;
-    margin: 5px;
-    width: 500px;
+    margin: 15px;
+    width: 550px;
     height: auto;
   }
 
+
+.svgs {
+    display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+    padding: 20px;
+}
+
 .shape {
-    /* display: flex; */
-    justify-content: center; /*space-evenly*/
-    transition-duration: .5s;
+    align-items: center;
+    transition-duration: 1s;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    flex-basis: 120px;
+
 }
 
 circle:hover, rect:hover {
